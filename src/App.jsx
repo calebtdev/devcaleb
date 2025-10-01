@@ -576,7 +576,7 @@ export default function Portfolio() {
               <a
                 href={`mailto:${profile.email}`}
                 target="_blank"
-                className="text-indigo-600 dark:text-indigo-400"
+                className="text-indigo-600 dark:text-indigo-400 break-all"
               >
                 {profile.email}
               </a>
